@@ -25,6 +25,7 @@ class testApp : public ofBaseApp{
 		//Variables
 		int height;
 		int width;
+		bool up,down,right,left;
 
 		//Methods
 		void setup();
@@ -36,6 +37,7 @@ class testApp : public ofBaseApp{
 		void enemyBlockDisplay();
 		void drawEdges();
 		void bulletDraw();
+		void playerMove();
 		void bulletDisplay();
 		void keyPressed(int key);
 		void keyReleased(int key);
