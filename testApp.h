@@ -65,16 +65,16 @@ class testApp : public ofBaseApp{
 		bullets b;
 
 		// we don't actually use these
-        // just checking to see if they
-        // all work in the same place :)
+        	// just checking to see if they
+ 		// all work in the same place :)
 
-        ofxCvGrayscaleImage cvGray;
-        ofxTCPClient client;
-        ofxTCPServer server;
-        ofxOscSender osc_sender;
-        ofxXmlSettings settings;
-        ofx3DModelLoader modelLoader;
-	ofxAssimpModelLoader betterModelLoader;
-	//ofxSynth synth;
-	ofxThreadedImageLoader threadedLoader;
+        	ofxCvGrayscaleImage cvGray;
+        	ofxTCPClient client;
+        	ofxTCPServer server;
+        	ofxOscSender osc_sender;
+        	ofxXmlSettings settings;
+        	ofx3DModelLoader modelLoader;
+		ofxAssimpModelLoader betterModelLoader;
+		//ofxSynth synth;
+		ofxThreadedImageLoader threadedLoader;
 };
