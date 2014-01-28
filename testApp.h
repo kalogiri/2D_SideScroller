@@ -74,7 +74,7 @@ class testApp : public ofBaseApp{
         ofxOscSender osc_sender;
         ofxXmlSettings settings;
         ofx3DModelLoader modelLoader;
-		ofxAssimpModelLoader betterModelLoader;
-		//ofxSynth synth;
-		ofxThreadedImageLoader threadedLoader;
+	ofxAssimpModelLoader betterModelLoader;
+	//ofxSynth synth;
+	ofxThreadedImageLoader threadedLoader;
 };
