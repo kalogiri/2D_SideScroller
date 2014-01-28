@@ -7,18 +7,6 @@
 #include "bullets.h"
 #include "player.h"
 
-//-----------------------------------
-#include "ofxOpenCv.h"
-#include "ofxNetwork.h"
-#include "ofxOsc.h"
-//#include "ofxSynth.h"
-#include "ofxXmlSettings.h"
-#include "ofx3DModelLoader.h"
-#include "ofxAssimpModelLoader.h"
-#include "ofxThreadedImageLoader.h"
-
-
-
 class testApp : public ofBaseApp{
 
 	public:
@@ -63,18 +51,4 @@ class testApp : public ofBaseApp{
 		//The bullets
 		vector<bullets>bullet;
 		bullets b;
-
-		// we don't actually use these
-        	// just checking to see if they
- 		// all work in the same place :)
-
-        	ofxCvGrayscaleImage cvGray;
-        	ofxTCPClient client;
-        	ofxTCPServer server;
-        	ofxOscSender osc_sender;
-        	ofxXmlSettings settings;
-        	ofx3DModelLoader modelLoader;
-		ofxAssimpModelLoader betterModelLoader;
-		//ofxSynth synth;
-		ofxThreadedImageLoader threadedLoader;
 };
